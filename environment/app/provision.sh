@@ -15,13 +15,13 @@ sudo apt-get install python-software-properties -y
 curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
 sudo apt-get install nodejs -y
 
-sudo apt install npm
+sudo apt install npm -y
 # install pm2
 sudo npm install pm2 -g
 
 sudo apt-get install nginx -y
 
-sudo npm install ejs mongoose express
+sudo npm install ejs mongoose express -y
 
 #sudo npm install -g express-generator
 
