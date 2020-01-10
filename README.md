@@ -29,4 +29,6 @@ ssh -i ~/.ssh/sam-watson-eng-48-test.pem ubuntu@63.33.51.84
 - navigate to aws ec2 instance page
 - select Instance
 - select actions - instance state - stop - terminate
-#test123456789101112SaafH4gg
+
+## To allow communication between jenkins and aws
+- configure new security group where jenkins server IP address is allowed access
