@@ -20,6 +20,7 @@ sudo npm install pm2 -g
 
 sudo apt-get install nginx -y
 
+sudo npm install ejs mongoose express
 # remove the old file and add our one
 sudo rm /etc/nginx/sites-enabled/default
 sudo cp /home/ubuntu/environment/app/nginx.default /etc/nginx/sites-enabled/default
