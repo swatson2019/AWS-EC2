@@ -32,3 +32,5 @@ ssh -i ~/.ssh/sam-watson-eng-48-test.pem ubuntu@63.33.51.84
 
 ## To allow communication between jenkins and aws
 - configure new security group where jenkins server IP address is allowed access
+
+#
